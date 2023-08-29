@@ -1,0 +1,65 @@
+
+.top{
+  background-color: rgb(183, 146, 185);
+  box-shadow: #2b2a33;
+  background-image: -moz-radial-gradient();
+
+}
+
+ .App {
+    text-align: center;
+    padding: 20px;
+    background-color: #DFD1E4;
+    box-sizing: border-box;
+  }
+
+  .conference-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 75px;
+     border-radius: 10px;
+     border: solid 1px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgb(168, 183, 149) , rgb(244, 238, 243));
+
+    
+  }
+  .button {
+    color: black;
+    background-color: #692193;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px; 
+  cursor: pointer;
+    }
+    
+  .button:hover {
+    background-color: #5a1a7d;
+  }
+  
+  .conference-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: solid 1px;
+    margin-top: 15px;
+    background-image: linear-gradient(to bottom right, rgb(157, 192, 225), rgb(212, 175, 156));
+  }
+  
+  .conference-card :hover {
+      
+  }
+  .conference-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    justify-content: center;
+  } 
