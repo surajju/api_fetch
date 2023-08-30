@@ -53,7 +53,7 @@ function App() {
         {conferences.map((conference) => (
           <div key={conference.id} className="conference-card">
            
-            <img src={conference.banner_image} alt={conference.title} />
+            <img src={conference.banner_image} alt={conference.title}  />
             <h2>{conference.title}</h2>
 
             <button 
@@ -79,7 +79,9 @@ function App() {
 
                 <p> <span className="fw-bold">Date & Time: </span>{conference.date_time}</p>
 
-                <p><span className="fw-bold">Organizer: </span>{conference.organiser_name} </p>
+                <p className="org">
+                <img src={conference.organiser_icon} alt={conference.organiser_name} className="banner" />
+                <span className="fw-bold">Organizer: </span>{conference.organiser_name} </p>
                 <p>
                   <span className="fw-bold">Venue:</span> {conference.venue_name}, {conference.venue_city},{" "}
                   {conference.venue_country}

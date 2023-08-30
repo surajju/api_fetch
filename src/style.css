@@ -48,10 +48,15 @@
     margin-top: 15px;
     background-image: linear-gradient(to bottom right, rgb(157, 192, 225), rgb(212, 175, 156));
   }
-  
-  .conference-card :hover {
-      
+
+  .banner{
+    background-size: cover ;
+    height : 50px !important;
+    width:auto!important;
+    margin-bottom:-1%;
+
   }
+  
   .conference-card img {
     max-width: 100%;
     height: auto;
